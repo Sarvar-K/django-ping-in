@@ -24,7 +24,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Add _ping_urls_ to your project's root _urls.py_, preferably in the beginning of _urlpatterns_ (check ping url first), like so:
+Add _ping_urls_ to your project's _urls.py_, preferably in the beginning of _urlpatterns_ (check ping url first), like so:
 ```python
 ...
 from ping_in.urls import urlpatterns as ping_urls
