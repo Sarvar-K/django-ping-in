@@ -1,0 +1,1 @@
+pip uninstall -y ping_in && python setup.py sdist && pip install dist/ping_in-*.tar.gz
